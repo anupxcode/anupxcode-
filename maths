@@ -1,0 +1,25 @@
+ # Find Maximum of two numbers in Python
+Toys = 58
+maps = 95
+if Toys < maps :
+    print(f"maps is bigger {maps}")
+else:
+    print(f"toys is small {Toys}")
+
+
+# another way 
+a = 70
+b = 35
+print(max(a,b))
+print(min(a,b))
+
+# minus can have various way 
+calculation = lambda s,d:s-d
+print(calculation(58,65))
+
+# using "f function"
+u,t = 58,89
+print(f"The out come {u}-{t} all around {u-t}")
+
+
+hope you like ..
