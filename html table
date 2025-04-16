@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title> HTML TABLE</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PHONE NUMBER</th>
+        </tr>
+                <td>1</td>
+                     <td>kabir</td>
+                    <td>0213698745422</td>
+        <tr>
+                      <td>2</td>
+                  <td>samir</td>
+                <td>012365498785</td>
+        </tr>
+
+        <tr>
+                  <td>3</td>
+                    <td>amir</td>           
+                 <td>0154879632574</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>arif</td>
+            <td>1326549877</td>
+        </tr>
+
+        <tr>
+             <td>5</td>
+             <td>munna</td>
+             <td>0179854632</td>
+        </tr>
+        
+        
+    </table>
+
+</body>
+</html><html>
+<head>
+    <title> HTML TABLE</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>PHONE NUMBER</th>
+        </tr>
+                <td>1</td>
+                     <td>kabir</td>
+                    <td>0213698745422</td>
+        <tr>
+                      <td>2</td>
+                  <td>samir</td>
+                <td>012365498785</td>
+        </tr>
+
+        <tr>
+                  <td>3</td>
+                    <td>amir</td>           
+                 <td>0154879632574</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>arif</td>
+            <td>1326549877</td>
+        </tr>
+
+        <tr>
+             <td>5</td>
+             <td>munna</td>
+             <td>0179854632</td>
+        </tr>
+        
+        
+    </table>
+
+</body>
+</html>
