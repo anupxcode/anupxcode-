@@ -1,17 +1,26 @@
 <html>
 <head>
-    <title>HTML Favicon</title>
-    <link rel= "shortcut icon" href="floxshop.jpg" type="image/2K7b_xh6D_k">
-    
+        <title>HTML Favicon</title>
+        <link rel= "shortcut icon" href="floxshop.jpg" type="image/2K7b_xh6D_k">
 </head>
+
 <body>
-    <H1>WELCOME TO FLOXSOFT</H1>
-    
+    <H1>WELCOME TO FLOXSOFT</H1> 
+</body>
+
+##
+
+<html>
+
+  <head>
+          <title>Basic practice </title>
+          <link rel="shortcut icon" href="logo.png" type="image/icon">
+  </head>
+<body>
+         <h1>This is testing note </h1>
 </body>
 
 
 
-
-
-
+</html>
 </html>
