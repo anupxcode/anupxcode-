@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>HTML MARQUEE TAG </title>
+    </head>
+<BODY>
+      <!-- <marquee behavior="alternate" direction="left" bgcolor="yellow">THIS TIME IS FOR CODE </marquee>
+     <br>
+     <marquee behavior="scroll" direction="right" bgcolor= "red"loop ="2">Pyhton is easy and funny</marquee>
+     <br>
+     <marquee behavior="scroll" direction="down" height ="250" widgth = "350" bgcolor="pink"> Practice everyday </marquee> -->
+
+     <marquee behavior="slide" direction="left" bgcolor="skyblue" scrollamount="3">EVERYTHING IS EASY </marquee>
+     <br>
+     <marquee behavior="scroll" direction="right"  bgcolor="red"  loop="5" scrollamount="4" >WELCOME TO THE VIPER COMPANY</marquee>
+     <br>
+     <marquee behavior="scroll" direction="right" bgcolor="green" loop="8" scrollamount="5">YOU WILL UNDERSTAND CODE </marquee> -->
+
+</BODY>
+</html>
