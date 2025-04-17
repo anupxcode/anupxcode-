@@ -13,7 +13,16 @@
      <br>
      <marquee behavior="scroll" direction="right"  bgcolor="red"  loop="5" scrollamount="4" >WELCOME TO THE VIPER COMPANY</marquee>
      <br>
-     <marquee behavior="scroll" direction="right" bgcolor="green" loop="8" scrollamount="5">YOU WILL UNDERSTAND CODE </marquee> -->
+     <marquee behavior="scroll" direction="right" bgcolor="green" loop="8" scrollamount="5">YOU WILL UNDERSTAND CODE </marquee> 
+
+   <marquee behavior="alternate" direction="up" height="150" width="200" bgcolor="#dadada">
+            <marquee behavior="" direction="">ITS MY LOVE</marquee>
+    </marquee>
+
+    <hr>
+          <marquee behavior="slide" direction="down" height="250" width="300" bgcolor="orange">
+                <marquee behavior="" direction="">I LOVE CODE</marquee>
+     </marquee>
 
 </BODY>
 </html>
