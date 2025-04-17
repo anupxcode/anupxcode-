@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> HTML PRE TAG </title>
+    </head>
+<body>
+                I LOVE CODING
+    <pre style="font-size: medium; background-color: bisque;">
+        এই টেক্সট কেমন দেখাবে?
+        এটি ঠিক এমনভাবেই প্রদর্শিত হবে।
+        স্পেস, লাইন ব্রেক, এবং ট্যাব সংরক্ষিত থাকবে।
+    </pre>
+<hr>
+<pre style="background-color: rgb(160, 14, 14); color: white; ">
+    Coding is super easy need 
+       practice and understanding
+    Everyday and continiously 
+       Building basic and fly
+    </pre>  
+
+</body>
+</html>
