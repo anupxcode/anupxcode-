@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Anup</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" >
+        <h2>About Me</h2>
+        <p>I am learning web development and excited to create websites!</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Simple Landing Page</li>
+            <li>Blog Layout</li>
+            <li>To-Do List (coming soon!)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: anup@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Anup's Portfolio</p>
+    </footer>
+    
+
+  
+</body>
+</html>
