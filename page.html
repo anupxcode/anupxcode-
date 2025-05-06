@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header with Nav and Hero</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #00ffff;
+    }
+
+    .hero {
+      background-color: teal;
+      color: white;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- nav tag: navigation bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- div tag: hero section -->
+  <div class="hero">
+    <h1>Welcome to Flexsort</h1>
+    <p>Your easy way to solve problems</p>
+  </div>
+
+</body>
+</html>
