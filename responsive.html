@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+     <style>
+      .table-container {
+        max-width: 100%;
+        overflow-x:auto;
+        margin:20px;
+        border:2px solid #f1bc84;
+        border-radius:10px;
+      }
+
+      table {
+        width:100%;
+        border-collapse:collapse;
+        min-width:400px;
+      }
+
+      th, td {
+      border: 1px solid orange;
+      padding: 12px;
+      text-align: left;
+     }
+
+     thead {
+      background-color: firebrick;
+      color: white;
+    }
+    tbody tr:nth-of-type(odd) {
+    background-color: #ffe6e6;  
+    }
+
+    tbody tr:nth-of-type(even) {
+    background-color: #fff7f0;  
+    }  
+     </style>
+  </head>
+  <body>
+    <div class="table-container">
+      <table class="table-style">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Specialty</th>
+            <th>Rank</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Python</td>
+            <td>Python is known for its simplicity, readability, and versatility. <br>It’s widely used in data science, web development, AI/ML, automation, and scripting.</td>
+            <td> 1 in the TIOBE Index (as of early 2025).</td>
+          </tr>
+          <tr>
+            <td>Css</td>
+            <td>CSS controls the visual design and layout of web pages.<br>It's essential for creating responsive, aesthetic, and interactive user interfaces.</td>
+            <td>Top 10 technologies in web developmen</td>
+          </tr>
+          <tr>
+            <td>Html</td>
+            <td>HTML provides the structure and content of web pages</td>
+            <td>Top 5 most-used technologies globally.</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </body>
+</html>
