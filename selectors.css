@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS more on selection</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+
+/* 
+    .box:first-child{
+    background-color: aqua;
+     } 
+ 
+    .box::first-line{
+     color: yellow;
+
+ }
+  .boxes *{
+    color: rgb(255, 5, 126);
+    border: 5px solid black;
+    padding: 5px;
+  }
+
+  p,a,.box,[data-color = "primary"]{
+    padding-top: 155px;
+    }
+    
+    .box:nth-child(odd){
+    background-color: blueviolet;
+    }  */
+/* 
+    .box:nth-last-child(2){
+        background-color: aqua;
+   }  */
+
+    .boxes::before{
+       content: "Viper is great";
+       background-color: rgb(255, 145, 2);
+    }
+
+    
+    .boxes::after{
+       content: "Everyday do your best";
+       color: rgb(255, 73, 6);
+    }
+
+    ::selection{
+        background-color:yellow ;
+        color: pink;
+    }
+
+    .box::first-letter{
+        color: rgb(234, 39, 4);
+    }
+
+    input::placeholder{
+        color: rgb(45, 47, 47);
+        
+    } 
+  
+    
+  
+
+     
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey I am a box 1</div>
+        <div class="box">Hey I am a box 2</div>
+        <div class="box">Hey I am a box 3</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+
+</html>
