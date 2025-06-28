@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveber practice</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .navber {
+            background-color: antiquewhite;
+            padding: 16px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navber ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            gap: 20px;
+
+        }
+
+        .navber ul li a {
+            color: rgb(7, 97, 177);
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+
+        .navber ul li a:hover {
+            background-color: aqua;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navber">
+        <ul>
+            <li><a href="https://flexsoftserver.com/">HOME</a></li>
+            <li><a
+                    href="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/?utm_source=CWH&utm_medium=LeadsAcquisition&utm_content=UEDownload&utm_campaign=UETrialDownload">Phone</a>
+            </li>
+            <li><a href="https://www.w3schools.com/python/python_dictionaries_remove.asp">Serivices</a></li>
+            <li><a
+                    href="https://www.google.com/search?sca_esv=52e041502f0ec7d9&sxsrf=AE3TifPc_bDn13MowalrEa1i5eun5YgKJw:1751110657148&q=amazon&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIetGGaXQq5Cl7-bidMuJC6xFtaGKoamsWktbzdIlB93sFPwhJyi99a2LpH9wdZO8BQ8nd26--un7yW1SzKAPXbB9fmBwfohJt_CdCbNzxn39EFnKjb1vkNf5gMlT2Et7QDoKoYA9TphSn-IXo1FhGV0l6qVd7aTeUsyZTk2XPbOdPzzib2g&sa=X&ved=2ahUKEwiA7bnFg5SOAxX_yjgGHdwwN50Q0pQJKAB6BAgVEAE&biw=1920&bih=945&dpr=1">Contract</a>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
