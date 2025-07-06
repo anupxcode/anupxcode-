@@ -1,0 +1,77 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Css animation</title>
+      <style>
+  
+  .container{
+      background-color:azure ;
+      height:80vh;
+      width: 30vw;
+  }
+  .box{
+      width: 34px;
+      height: 45px;
+      border-radius: 7px;
+    /*animation: viperSanimation;  /*Activiate the animation*/
+    /*animation-duration: 3s; How long animation take time to move*/
+    /*animation-iteration-count: 5; how many time it moves*/
+    /*animation-timing-function: ease-in-out; /*property sets how an animation progresses through the duration of each cycle.*/
+    /*animation-delay:3s; The animation-delay CSS property specifies when the animation will start.*/
+    /* animation-direction: alternate-reverse; /* It's tell where   to start */
+    /* animation-play-state: running; */
+    /* using only animation  */
+      /* animation-fill-mode: backwards; */
+      animation: viperSanimation 3s ease-in-out 3s,
+                 anups 3s ease-in-out 4s 1,
+                  
+     
+  }
+  
+  @keyframes viperSanimation {
+  
+      from{
+          background-color: crimson;
+  
+      }
+      to{
+          background-color: #ffc107;
+          transform: translateX(360px);
+
+    }
+      
+  }
+  
+  @keyframes anups {
+      0%{
+          transform: rotate(100deg);
+      }
+      25%{
+          transform:rotate(200deg)
+      }
+      35%{
+          transform:rotate(210deg)
+      }
+      75%{
+          transform:rotate(300deg)
+      }
+      100%{
+          transform:rotate(310deg)
+      }
+      
+  }
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+    
+</body>
+</html>
