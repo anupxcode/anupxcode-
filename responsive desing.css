@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive design </title>
+    <style>
+        .profile-card {
+            max-width: 600px;
+            min-width: 300px;
+            text-align: center;
+            background-color: lightblue;
+            margin: 50px auto;
+            padding: 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            border-radius: 10px;
+        }
+
+        .profile-card img {
+            border-radius: 50%;
+            width: 75px;
+            margin-bottom: 20px;
+
+        }
+
+        .profile-card p {
+            color: brown;
+        }
+
+        @media screen and (max-width:500px) {
+            .profile-card{
+                background-color: slateblue;
+                font-size: 15px;
+            }
+        }
+
+        @media screen and (max-width:750px) {
+            .profile-card h2{
+                color: crimson;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <img width="55"
+            src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/469382523_557204350534202_1894034474697070354_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGeER2e3yC5_TZaWsWuOAocfRjKMvy7yfF9GMoy_LvJ8bEEUdbj0C8iU5BuDy6e8FDzr2bAt-xJpFfbAM2fUpjj&_nc_ohc=G_0t9TW98YgQ7kNvwGF3NAY&_nc_oc=Adk5ShGaMbtCfW7ELiMxA5IFEGAZfQsHEn-1duoL29aj3XwcLqcFTK-Vkgf3xQrDknY&_nc_zt=23&_nc_ht=scontent.fdac138-1.fna&_nc_gid=4z4MdaVZ147ITyu_ptvfUA&oh=00_AfRpwuZN4mupvoHzIMbmR9_aOhnnQFMTcctCtnXH9u7Y5w&oe=68757AD8"
+            alt="profile-card">
+        <p>WELCOME TO FLEXSOFT</p>
+        <h2>FLEXSOFT</h2>
+        <P>STUDENT/ LEARNING WEB DEV / MASTER TAILWIND </P>
+    </div>
+
+</body>
+
+</html>
