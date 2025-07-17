@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar practice with clearity</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            padding: 25px;
+            font-family: sans-serif;
+            background-color: rgb(28, 30, 33);
+            font-family: sans-serif;
+
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu {
+            display: flex;
+            gap: 50px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+            color: crimson;
+            transition: 0.3s;
+            padding: 6p 10px;
+        }
+
+        .button a {
+            text-decoration: none;
+            background-color: crimson;
+            padding: 10px 20px;
+            color: whitesmoke;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .button a:hover {
+            background-color: rgb(194, 188, 188);
+            color: crimson;
+            transform: scale(1.05);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://scontent.fdac138-2.fna.fbcdn.net/v/t39.30808-1/444928497_122093605868353636_4902557805754904873_n.jpg?stp=cp0_dst-jpg_s60x60_tt6&_nc_cat=106&ccb=1-7&_nc_sid=11a88f&_nc_eui2=AeHZrQSgUM2Ia3W-JDrkjNCD7MVyV_ifW2XsxXJX-J9bZc7aZofPfSCJRYYiD0AUG3eUX06kENTvItSj4q7u-oAd&_nc_ohc=QN2RvhAK_OkQ7kNvwHEFXW_&_nc_oc=Adl1P6AddeoWVcW2eOxsCyT_sVQ0rSABqqn4p8nfS8m1g8yoXkg0nGus_NxGYta83aU&_nc_zt=24&_nc_ht=scontent.fdac138-2.fna&_nc_gid=l4J-gPJrEmkVsGUThSmpBA&oh=00_AfQjbXdtLvSbZPHDxiIZKBHLOGU6vfhL41VJK5IA3oWJhQ&oe=687B362D"
+                alt="time__arrow" />
+        </div>
+        <div class="menu">
+            <a href="https://www.olx.com.pk/items/q-Xiaomi-Redmi-Note-12">HOME</a>
+            <a href="https://www.olx.com.pk/items/q-Xiaomi-Redmi-Note-12">ABOUT</a>
+            <a href="https://www.olx.com.pk/items/q-Xiaomi-Redmi-Note-12">BLOG</a>
+        </div>
+        <div class="button">
+            <a href="https://www.facebook.com/?ref=homescreenpwa">
+                Click Here</a>
+        </div>
+    </div>
+</body>
+
+</html>
