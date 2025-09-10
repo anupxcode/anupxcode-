@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Landing Page</title>
+</head>
+
+<body class="flex flex-col min-h-screen bg">
+  <nav class="flex justify-between items-center fixed top-0 left-0 w-full z-50 px-8 py-4 bg-emerald-900">
+    <!-- logo -->
+    <div class="flex justify-center items-center font-bold text-xl hover:text-white sm:text-xl ">
+         <img src="https://www.bdinfowala.com/wp-content/uploads/2021/09/20250902_235522-2048x672.png" alt="" class="w-65">
+    </div>
+     <!-- Menu -->
+   <div class="hidden md:flex">
+        <ul class="flex items-center space-x-8 font-bold text-xl text-gray-300">
+           <li><a href="https://www.bdinfowala.com/about-us/" class="hover:text-gray-200">আমাদের সম্পর্কে</a></li>
+                       <li><a href="https://www.bdinfowala.com/contact-us/" class="hover:text-gray-200">যোগাযোগ করুন</a></li>
+                               <li><a href="https://www.bdinfowala.com/faqs/" class="hover:text-gray-200">সচরাচর প্রশ্নোত্তর</a></li>
+                       <li><a href="https://www.bdinfowala.com/privacy-policy/" class="hover:text-gray-200">গোপনীয়তা নীতি</a></li>
+               <li><a href="https://www.bdinfowala.com/privacy-policy/" class="hover:text-gray-200">টার্মস এন্ড কন্ডিশন</a>
+          </li>
+      </ul>
+    </div>
+
+    <!-- social icons -->
+    <div class="flex space-x-5 text-gray-200 text-xl">
+      <a href="https://www.facebook.com/profile.php?id=61580193951389&rdid=I0HI9bA3NZYJlq1N&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HMeVLnngJ%2F#"
+        target="blank" class="hover:text-black">
+        <i class="fab fa-facebook"></i>
+      </a>
+            <a href="https://www.whatsapp.com/channel/0029VbB1lwW0wajpIHQQjS0h" target="blank" class="hover:text-black">
+                    <i class="fab fa-whatsapp"></i>
+                </a> 
+                 <a href="https://t.me/Bdinfowala" target="_self" class="hover:text-black">
+                      <i class="fab fa-instagram"></i>
+                 </a>
+            </div>
+
+            <!-- search bar -->
+            <div class="hidden md:block">
+                 <input type="text" placeholder="search...."
+                  class="bg-white rounded px-2 py-1 focus:outline-none focus:ring-4 focus:ring-green-600 shadow-2xl">
+            </div>
+
+            <!-- burger -->
+            <div class="md:hidden">
+                 <button class="focus:outline-none text-white">☰</button>
+            </div>
+  </nav>
+   <hr class="border-t-4 border-black">     
+
+  <main>
+      <section class="relative w-full h-screen">
+            <img src="vecteezy_ai-generated-programmer-coding-on-laptop-at-night_39191028.jpeg"
+              alt="" class="w-full h-full object-cover">
+       <div class="absolute inset-0 bg-black/40"></div>
+          
+     <div class="absolute inset-0 flex flex-col text-white justify-center items-center ">
+          <h1 class="font-bold text-5xl sm:text-5xl md:text-6xl mb-6">
+               This is <span class="text-sky-600">the world</span>
+           </h1>
+          <p class="text-lg md:text-lg lg:text-xl mb-4">Learn, to build to gain</p>
+
+        <div class="flex flex-col sm:flex-row gap-6">
+           <button class="bg-sky-800 px-6 py-2 rounded-lg shadow-lg hover:bg-sky-400 text-black font-bold scale-0.9 transition-all">
+               <a href="https://youtu.be/voXYG17rhQA"> Get now </a>
+          </button>
+
+           <button class="bg-gray-600 px-6 py-2 rounded-lg shadow-lg hover:bg-gray-400 text-black font-bold">
+               <a href="https://youtu.be/NkwFxeHARqc">Click here</a>
+           </button>
+        </div>  
+     </div>
+      </section>
+  </main>
+
+   <footer class="bg-gray-900 text-white py-8">
+     <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+           <!-- Logo / Brand -->
+
+           <div class="md:mb-0">
+               <h1 class="text-4xl font-bold ">The <span class="text-sky-500">viper</span> company</h1>
+           </div>
+          <!-- Quick Links -->
+
+            <ul class="flex flex-col sm:flex-row gap-6 md:mb-0 mb-6">
+               <li class="hover:text-sky-500">Home</li>
+                   <li class="hover:text-sky-500">About</li>
+                    <li class="hover:text-sky-500">Service</li>
+                   <li class="hover:">Contact</li>
+            </ul>
+         <!-- Social / Contact -->
+
+        <div class="flex gap-6">
+                 <a href="">Facebook</a>
+                 <a href="">whatsapp</a>
+                 <a href="">instagram</a>
+          </div>
+     </div>
+
+     <p class="text-center text-gray-500 mt-2">
+          &copy; 2025 THE VIPER COMPANY. All rights reserved.
+     </p>
+
+   </footer>
+
+</body>
+</html>  
