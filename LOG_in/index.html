@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>nobodeal — Log In</title>
+</head>
+<body class="bg-gray-100 antialiased">
+
+  <!-- Centered card -->
+  <main class="min-h-screen flex items-center justify-center p-6">
+    <section class="w-full max-w-md bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+      
+      <!-- Header (logo + brand) -->
+      <div class="px-8 pt-8 pb-4 text-center">
+        <img src="favicon.3.png" alt="nobodeal logo" class="mx-auto w-20 h-20 object-contain"/>
+        <h1 class="mt-4 text-2xl font-extrabold text-sky-600 leading-tight">
+          <span class="text-sky-600">nobo</span><span class="text-yellow-400">d</span><span class="text-sky-600">eal</span>
+        </h1>
+        <p class="mt-2 text-sm text-amber-400 font-medium">Investment with Secure Return</p>
+      </div>
+
+      <hr class="border-t border-gray-100">
+
+      <!-- Form -->
+      <form class="px-8 py-6" action="#" method="post" novalidate>
+        <h2 class="text-lg font-semibold text-gray-800 mb-4 text-center">Log In to Your Account</h2>
+
+        <!-- Email -->
+        <label for="email" class="sr-only">Email address</label>
+        <input id="email" name="email" type="email"
+          placeholder="Email address"
+          autocomplete="username"
+          required
+          class="w-full px-4 py-3 mb-3 border border-gray-200 rounded-md bg-gray-50 text-gray-800 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-sky-400"
+        />
+
+        <!-- Password -->
+        <label for="password" class="sr-only">Password</label>
+        <input id="password" name="password" type="password"
+          placeholder="Password"
+          autocomplete="current-password"
+          required
+          class="w-full px-4 py-3 mb-2 border border-gray-200 rounded-md bg-gray-50 text-gray-800 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-sky-400"
+        />
+
+        <div class="flex items-center justify-between mt-2 mb-6">
+          <div class="flex items-center gap-2">
+            <input id="remember" type="checkbox" class="h-4 w-4 text-sky-600 border-gray-300 rounded" />
+            <label for="remember" class="text-sm text-gray-600">Remember me</label>
+          </div>
+          <a href="#" class="text-sm text-sky-600 hover:underline">Forgot password?</a>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit"
+          class="w-full bg-sky-600 hover:bg-sky-700 active:bg-sky-800 text-white font-semibold py-3 rounded-md shadow-sm transition-colors duration-150">
+          Submit
+        </button>
+
+      </form>
+
+      <div class="px-8 pb-8">
+        <p class="text-center text-sm text-gray-500">
+          Don't have an account?
+          <a href="#" class="text-sky-600 font-medium hover:underline">Create new account</a>
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>
